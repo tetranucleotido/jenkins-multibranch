@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Automation') {
             steps {
-               sh 'git clone -b master https://github.com/roxsross/automation.git'
+               sh 'git clone -b master https://github.com/tetranucleotido/automation.git'
             }
         }
         stage('install dependencies') {
