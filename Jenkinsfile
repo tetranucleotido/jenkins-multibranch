@@ -36,7 +36,8 @@ pipeline {
         } 
         stage('Docker Build') {
             steps {
-               sh './automation/docker_build.sh'
+                sh 'chmod +x ./automation/docker_build.sh'
+                sh './automation/docker_build.sh'
             }
         }
         stage('Docker Push to Docker-hub') {
