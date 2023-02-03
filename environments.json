@@ -2,15 +2,15 @@
     "environments":{
         "master":{
             "EC2INSTANCE":"ec2-user@3.238.93.59",
-            "Author":"RoxsRoss"
+            "Author":"grupo2"
         },
         "testing":{
             "EC2INSTANCE":"ec2-user@3.238.14.130",
-            "Author":"RoxsRoss"
+            "Author":"grupo2"
         },
         "develop":{
             "EC2INSTANCE":"ec2-user@34.205.92.61",
-            "Author":"RoxsRoss"
+            "Author":"grupo2"
         }
 
     }
